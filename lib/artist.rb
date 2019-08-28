@@ -35,7 +35,7 @@ def self.find(name)
 end
 
 def print_songs
-  puts @songs.collect{|x|x}
+  puts @songs.collect{|x|x.name}
     end
   end
 end
