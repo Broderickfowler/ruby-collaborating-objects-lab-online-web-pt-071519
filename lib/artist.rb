@@ -34,6 +34,12 @@ def self.find(name)
   @@all.find{|artist| artist.name == name}
 end
 
+def self.create(name)   #class method creates & stores instances vs initializing
+    artist = Artist.new(name)
+    artist.save
+    artist
+  end
+  
 def print_songs
   self.songs.each {|song| song.name}
 
