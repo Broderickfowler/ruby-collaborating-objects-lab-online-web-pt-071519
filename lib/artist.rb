@@ -35,7 +35,7 @@ def self.find(name)
 end
 
 def print_songs
-  puts @s
+  puts @songs.
     end
   end
 end
