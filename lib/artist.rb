@@ -34,8 +34,8 @@ def self.find(name)
   @@all.find{|artist| artist.name == name}
 end
 
-def print_songs
+def print_songs()
   puts @songs.collect{|x|x.name}
-  
+
   end
 end
