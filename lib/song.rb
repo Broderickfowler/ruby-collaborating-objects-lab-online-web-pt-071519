@@ -14,6 +14,6 @@ end
 
 
   def self.new_by_filename(file)
-    so
+    song_info
   end
 end
