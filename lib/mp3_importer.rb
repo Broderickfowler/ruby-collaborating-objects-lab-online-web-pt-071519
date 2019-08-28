@@ -1,6 +1,8 @@
 class MP3Importer
 
-attr_accessor 
+attr_accessor :path
+
+d
 
 
 
