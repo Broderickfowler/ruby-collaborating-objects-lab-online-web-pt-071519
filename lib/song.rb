@@ -17,6 +17,6 @@ end
     song_info = file.chomp(".mp3").split("-")
     song = s0ong.new(song_info[1])
     song.artist_name = song_info[0]
-
+    song
   end
 end
