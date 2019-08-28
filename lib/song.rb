@@ -14,6 +14,6 @@ end
 
 
   def self.new_by_filename(file)
-    song_info = file.chomp(".mpe")
+    song_info = file.chomp(".mp3").spli
   end
 end
